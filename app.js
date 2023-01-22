@@ -1,3 +1,7 @@
+const start = document.getElementById('start')
+const stop = document.getElementById('stop')
+const output = document.getElementById('output')
+
 // If browser is supported, start app
 if ("webkitSpeechRecognition" in window) {
 
